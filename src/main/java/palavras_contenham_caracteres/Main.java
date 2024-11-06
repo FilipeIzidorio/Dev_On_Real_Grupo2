@@ -25,6 +25,6 @@ public class Main {
         char x = 't';
 
         List<Integer> resultado = encontrarIndices(palavras, x);
-        System.out.println(resultado); // Saída esperada: [0]
+        System.err.println(resultado); // Saída esperada: [0]
     }
 }
